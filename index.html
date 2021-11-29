@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>
+            form validation
+        </title>
+        <link rel="stylesheet" href="Style File/style.css">
+        <script type="text/javascript" src="Script File/script.js"></script>
+        
+
+
+    </head>
+    <body>
+        <h1>Personal Details</h1>
+        <form>
+           
+                <label for=""> Name as per Id proof</label><br><br>
+                <input id="Name"type="text">
+                <label id="uname"for="" style="color: red;visibility: hidden;">Name is Required</label><br>
+                <label for=""> Father's Name </label><br><br>
+                <input id="Last Name"type="text">
+                <label id="lname1"for="" style="color: red;visibility: hidden;">LastName is Required</label><br><br>
+                <label for=""> E-mail</label><br><br>
+                <input id="MailId"type="text"> 
+                <label id="mail1"for="" style="color: red;visibility: hidden;">MailId is Required</label><br><br><br>
+                       
+                <label for="">Date Of Birth</label>
+                <input id="DOB"type="text"> <label id="birth"for="" style="color: red;visibility: hidden;">DOB is Required</label><br><br><br>
+                <label for="">Mobile No</label>
+                <input id="no"type="text" placeholder="dd-mm-yyyy"> <label id="no1"for="" style="color: red;visibility: hidden;"> Required</label><br><br>
+                <label for=""> Current Address</label><br>
+                <input id="addressl1"type="text" placeholder="Address Line 1">
+                <label id="address1"for="" style="color: red;visibility: hidden;">Address is Required</label><br><br><br><br>
+                <input id="addressl2"type="text" placeholder="Address Line 2">
+                <label id="address2"for="" style="color: red;visibility: hidden;">Address is Required</label><br><br><br><br>
+
+                <input id="city"type="text" placeholder="City">            
+                <label id="c1"for="" style="color: red;visibility: hidden;">City is Required</label><br><br><br>
+                <select name="" id="" aria-placeholder="State">
+                    <option value="">TamilNadu</option>
+                    <option value="">Kerala</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Telungana</option>
+                </select><br><br>
+                         
+           
+           
+      
+            <input id="code"type="text" placeholder="Zip Code">
+            <label id="zip code"for="" style="color: red;visibility: hidden;">Zip code is Required</label><br><br><br><br>
+            
+              
+            
+            
+            <label for="">Permanent Address</label>
+            <input type="checkbox" id="check">Same as Current Address <br>
+            <br><br>
+            <input id="paddressl1"type="text" placeholder="Address Line 1">
+                <label id="paddress1"for="" style="color: red;visibility: hidden;">Address is Required</label><br><br><br><br>
+                <input id="paddressl2"type="text" placeholder="Address Line 2">
+                <label id="paddress2"for="" style="color: red;visibility: hidden;">Address is Required</label><br><br><br><br>
+
+                <input id="pcity"type="text" placeholder="City">            
+                <label id="pc1"for="" style="color: red;visibility: hidden;">City is Required</label><br><br><br>
+                <select name="" id="pstate" aria-placeholder="State">
+                    <option value="">TamilNadu</option>
+                    <option value="">Kerala</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Telungana</option>
+                </select><br><br>
+                
+      
+            <input id="pcode"type="text" placeholder="Zip Code">
+            <label id="pzip code"for="" style="color: red;visibility: hidden;">Zip code is Required</label><br><br><br><br>
+            <input type="file" id="file"> <label id="f1"for="" style="color: red;visibility: hidden;"> Required</label><br><br><br><br><br>
+             
+        <button onclick="validate()" type="button">validate</button>
+            
+         
+    
+   
+          
+           
+    
+            
+           
+        </form>
+    </body>
+</html>
